@@ -7,9 +7,6 @@ import geocoder
 # Create a pandas dataframe to store the attendance data
 attendance_df = pd.DataFrame(columns=['Email', 'Start Time', 'End Time', 'Location'])
 
-
-
-
 # Define a function to record the start time of the employee and their location
 def record_start_time():
     # Get the current system time
